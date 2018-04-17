@@ -1,0 +1,14 @@
+.map-cont {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 50px);
+}
+
+.info-cont {
+  display: flex;
+  align-items: center;
+}
+
+.info-cont span {
+  padding: 5px;
+}

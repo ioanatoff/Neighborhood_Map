@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  background: #4a4848;
+  height: 50px;
+}
+
+.menu-button {
+  background: transparent;
+  border: none;
+  outline: 0;
+}
+
+.menu-button:focus .fa-bars{
+  color: #fdf9f4;
+}
+
+.fa-bars {
+  font-size: 2em;
+  color: #f3cb97;
+  margin: 9px;
+  cursor: pointer;
+}
+
+.fa-bars:hover {
+  color: #fbefdf;
+}
+
+.fa-bars:active {
+  color: #fdf9f4;
+}
